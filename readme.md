@@ -8,9 +8,9 @@
 8. In another browser tab, open the api test tool at "https://apitesttool.desire2learnvalence.com".
 9. Enter the supplied lms domain for Host, 443 for port, and the application id and key generated previously.
 10. Click authenticate and follow through prompt by clicking "continue".
-11. New fields "User Id" and "User Key" should be revealed in the api test tool UI. These are going to be our keys for our applications service user.
+11. New fields "User Id" and "User Key" should be revealed in the api test tool UI. These are going to be our keys for our application's service user.
 12. Copy the user id and key to "ApiDemoApplication.exe.config" as serviceUserId and serviceUserKey respectively.
-13. Enter the supplied lms domain under lmsUrl.
+13. Enter the supplied lms domain under lmsUrl in "ApiDemoApplication.exe.config".
 14. Open the file user.json and enter some details for a test user.
 15. Open the file course.json and enter some details for a test course.
 16. Run the application ApiDemoApplication.exe.
